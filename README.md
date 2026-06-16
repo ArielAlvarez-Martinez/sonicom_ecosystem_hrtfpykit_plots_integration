@@ -44,61 +44,85 @@ Each section shows the plot exported by the SONICOM ecosystem first, then the co
 
 SONICOM ecosystem:
 
-![SONICOM ecosystem ETC horizontal plane left ear](images/sonicom-ecosystem/etc-horizontal-left.png)
+<p align="center">
+  <img src="images/sonicom-ecosystem/etc-horizontal-left.png" alt="SONICOM ecosystem ETC horizontal plane left ear" width="680">
+</p>
 
 hrtfpykit, generated with `plot_etc_plane(hrtf, ear="left", plane="horizontal", azimuth_range_mode="-180-180")`:
 
-![hrtfpykit ETC horizontal plane left ear](images/hrtfpykit/comparable/etc-horizontal-left.png)
+<p align="center">
+  <img src="images/hrtfpykit/comparable/etc-horizontal-left.png" alt="hrtfpykit ETC horizontal plane left ear" width="680">
+</p>
 
 ### Energy time curves, horizontal plane, right ear
 
 SONICOM ecosystem:
 
-![SONICOM ecosystem ETC horizontal plane right ear](images/sonicom-ecosystem/etc-horizontal-right.png)
+<p align="center">
+  <img src="images/sonicom-ecosystem/etc-horizontal-right.png" alt="SONICOM ecosystem ETC horizontal plane right ear" width="680">
+</p>
 
 hrtfpykit, generated with `plot_etc_plane(hrtf, ear="right", plane="horizontal", azimuth_range_mode="-180-180")`:
 
-![hrtfpykit ETC horizontal plane right ear](images/hrtfpykit/comparable/etc-horizontal-right.png)
+<p align="center">
+  <img src="images/hrtfpykit/comparable/etc-horizontal-right.png" alt="hrtfpykit ETC horizontal plane right ear" width="680">
+</p>
 
 ### Spectral magnitude, median plane, left ear
 
 SONICOM ecosystem:
 
-![SONICOM ecosystem spectral magnitude median plane left ear](images/sonicom-ecosystem/spectrum-median-left.png)
+<p align="center">
+  <img src="images/sonicom-ecosystem/spectrum-median-left.png" alt="SONICOM ecosystem spectral magnitude median plane left ear" width="680">
+</p>
 
 hrtfpykit, generated with `plot_spectrum_plane(hrtf, ear="left", plane="median", freq_max=18000.0)`:
 
-![hrtfpykit spectral magnitude median plane left ear](images/hrtfpykit/comparable/spectrum-median-left.png)
+<p align="center">
+  <img src="images/hrtfpykit/comparable/spectrum-median-left.png" alt="hrtfpykit spectral magnitude median plane left ear" width="680">
+</p>
 
 ### Spectral magnitude, median plane, right ear
 
 SONICOM ecosystem:
 
-![SONICOM ecosystem spectral magnitude median plane right ear](images/sonicom-ecosystem/spectrum-median-right.png)
+<p align="center">
+  <img src="images/sonicom-ecosystem/spectrum-median-right.png" alt="SONICOM ecosystem spectral magnitude median plane right ear" width="680">
+</p>
 
 hrtfpykit, generated with `plot_spectrum_plane(hrtf, ear="right", plane="median", freq_max=18000.0)`:
 
-![hrtfpykit spectral magnitude median plane right ear](images/hrtfpykit/comparable/spectrum-median-right.png)
+<p align="center">
+  <img src="images/hrtfpykit/comparable/spectrum-median-right.png" alt="hrtfpykit spectral magnitude median plane right ear" width="680">
+</p>
 
 ### Absolute ITD, horizontal plane
 
 SONICOM ecosystem:
 
-![SONICOM ecosystem absolute ITD horizontal plane](images/sonicom-ecosystem/absolute-itd-horizontal.png)
+<p align="center">
+  <img src="images/sonicom-ecosystem/absolute-itd-horizontal.png" alt="SONICOM ecosystem absolute ITD horizontal plane" width="680">
+</p>
 
 hrtfpykit, generated with `plot_absolute_itd(hrtf)`:
 
-![hrtfpykit absolute ITD horizontal plane](images/hrtfpykit/comparable/absolute-itd-horizontal.png)
+<p align="center">
+  <img src="images/hrtfpykit/comparable/absolute-itd-horizontal.png" alt="hrtfpykit absolute ITD horizontal plane" width="680">
+</p>
 
 ### Source grid
 
 SONICOM ecosystem:
 
-![SONICOM ecosystem source grid](images/sonicom-ecosystem/source-grid.png)
+<p align="center">
+  <img src="images/sonicom-ecosystem/source-grid.png" alt="SONICOM ecosystem source grid" width="680">
+</p>
 
 hrtfpykit, generated with `plot_source_grid(hrtf)`:
 
-![hrtfpykit source grid](images/hrtfpykit/comparable/source-grid.png)
+<p align="center">
+  <img src="images/hrtfpykit/comparable/source-grid.png" alt="hrtfpykit source grid" width="680">
+</p>
 
 ## Additional hrtfpykit visualizations
 
@@ -106,37 +130,53 @@ The plots below are extra views generated from the same loaded `HRTF` object. Th
 
 ### HRIR amplitude response
 
-![hrtfpykit HRIR amplitude response](images/hrtfpykit/additional/amplitude-default.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/amplitude-default.png" alt="hrtfpykit HRIR amplitude response" width="680">
+</p>
 
 ### HRTF magnitude response
 
-![hrtfpykit HRTF magnitude response](images/hrtfpykit/additional/magnitude-default.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/magnitude-default.png" alt="hrtfpykit HRTF magnitude response" width="680">
+</p>
 
 ### Signed ITD over the horizontal plane
 
-![hrtfpykit signed ITD over the horizontal plane](images/hrtfpykit/additional/itd-horizontal.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/itd-horizontal.png" alt="hrtfpykit signed ITD over the horizontal plane" width="680">
+</p>
 
 ### Signed ILD over the horizontal plane
 
-![hrtfpykit signed ILD over the horizontal plane](images/hrtfpykit/additional/ild-horizontal.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/ild-horizontal.png" alt="hrtfpykit signed ILD over the horizontal plane" width="680">
+</p>
 
 ### Frequency-dependent ILD over the horizontal plane
 
-![hrtfpykit frequency-dependent ILD](images/hrtfpykit/additional/ild-frequency-horizontal.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/ild-frequency-horizontal.png" alt="hrtfpykit frequency-dependent ILD" width="680">
+</p>
 
 ### Source plane grid
 
-![hrtfpykit plane grid](images/hrtfpykit/additional/plane-grid.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/plane-grid.png" alt="hrtfpykit plane grid" width="680">
+</p>
 
 ### Absolute ILD, horizontal plane
 
-![hrtfpykit absolute ILD](images/hrtfpykit/additional/absolute-ild-horizontal.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/absolute-ild-horizontal.png" alt="hrtfpykit absolute ILD" width="680">
+</p>
 
 ### Elevation spectrum
 
 Generated with `plot_elevation_spectrum(hrtf, freq_max=18000.0)`:
 
-![hrtfpykit elevation spectrum](images/hrtfpykit/additional/elevation-spectrum-default.png)
+<p align="center">
+  <img src="images/hrtfpykit/additional/elevation-spectrum-default.png" alt="hrtfpykit elevation spectrum" width="680">
+</p>
 
 
 
